@@ -4,8 +4,8 @@ COPY . /flask-app
 
 WORKDIR /flask-app
 
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 
-CMD ["python","app.py"]
+CMD ["python3","app.py"]
 
-EXPOSE 5000
+EXPOSE 80

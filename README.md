@@ -78,7 +78,7 @@ EXPOSE 80
 
 ### Pipeline Script:
 
-```json
+
 pipeline {
     agent any
     environment {
@@ -131,7 +131,6 @@ pipeline {
         }
     }
 }
-```
 
 
 

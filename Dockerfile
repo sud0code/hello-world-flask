@@ -1,8 +1,8 @@
 FROM python:slim-buster
 
-WORKDIR /flask-app
+COPY . /flask-app
 
-ADD . /flask-app
+WORKDIR /flask-app
 
 RUN pip install -r requirements.txt
 

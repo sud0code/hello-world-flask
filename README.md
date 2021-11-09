@@ -79,7 +79,7 @@ EXPOSE 80
 ### Pipeline Script:
 
 
-pipeline {
+```pipeline {
     agent any
     environment {
         AWS_ACCOUNT_ID="571370703756"
@@ -131,6 +131,7 @@ pipeline {
         }
     }
 }
+```
 
 
 
